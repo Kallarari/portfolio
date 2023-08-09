@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('../../../public/fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.NameText {
+    font-family: Raleway;
+    color:var(--text);
+    font-weight: bolder;
+    font-size: 35px;
+    transition-duration: .5s;
+  }
+  

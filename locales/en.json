@@ -1,0 +1,29 @@
+{
+  "name": "hon",
+  "projects": { "title": "Projects", "subtitle": "My projects showcase." },
+  "about": { "title": "About Me", "subtitle": "My stack and experiences." },
+  "templates": {
+    "title": "Best Bugs",
+    "subtitle": "Stack overflow and my experience of solving problems"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "My contact informations and checkout menu."
+  },
+  "description": { "part1": "this si the part one" },
+  "projects-page": {
+    "title": "Project colection developed by me.",
+    "subtitle": "Check out the projects, tecnologies and results.",
+    "button": "Browse",
+    "options":{
+      "first":"Payment",
+      "second":"More Complex",
+      "third":"Coolest"
+    }
+  },
+  "about-me": {
+    "title": "About by me.",
+    "subtitle": "Check informations about mes.",
+    "button": "Browse"
+  }
+}

@@ -1,0 +1,17 @@
+.container-show-case{
+    width: 300px;
+    height: 200px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: end;
+    border-radius: 3px;
+}
+.title{
+    color:white;
+    font-size: 20px;
+}
+.title-container-card{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.546);
+    padding: 10px;
+}

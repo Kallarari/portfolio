@@ -1,0 +1,23 @@
+.borded, .selected, .button{
+    background-color: var(--primary-contrast);
+    color:var(--text);
+    padding: 10px 15px;
+    border-radius: 8px;
+    border-bottom:var(--border-bottom);
+    border-left:var(--border-left);
+    width: fit-content;
+    margin-inline: auto;
+}
+.borded {
+    border-radius: 2px;
+    border-color: transparent;
+}
+.button:active, .borded:active {
+    transition-duration: .1s;
+    box-shadow: 2px 2px 5px var(--primary-contrast);
+}
+.selected{    
+    border-radius: 2px;
+    border-bottom:var(--border-bottom);
+    border-left:var(--border-left);
+}

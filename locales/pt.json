@@ -1,0 +1,32 @@
+{
+  "name": "oão",
+  "projects": { "title": "Projetos", "subtitle": "Minha coleção de projetos." },
+  "about": {
+    "title": "Sobre Min",
+    "subtitle": "Minha Stack e minhas experiências."
+  },
+  "templates": {
+    "title": "Maiores Bugs",
+    "subtitle": "Experiências resolvendo bugs meus ou do Stack Overflow."
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Meu contato e menu de chekout."
+  },
+  "description": { "part1": "essa é a parte 1" },
+  "projects-page": {
+    "title": "Coleção de projetos desenolvidos por mim.",
+    "subtitle": "Navegue pelos projetos,tecnologias e os resultados.",
+    "button": "Ver projetos!",
+    "options":{
+      "first":"Pagamento",
+      "second":"Mais Complexos",
+      "third":"Mais Legais"
+    }
+  },
+  "about-me": {
+    "title": "Coleção de projetos desenolvidos por mim.",
+    "subtitle": "Abaixo você pode conferir as tecnologias e filtros aplicáveis.",
+    "button": "Ver projetos!"
+  }
+}

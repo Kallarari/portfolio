@@ -1,0 +1,14 @@
+.title{
+    color:var(--text);
+}
+.subtitle{
+    color:var(--text);
+}
+.card-group:hover{
+    border: 1px solid gray;
+    background-color: var(--hover-background);
+}
+
+.card-group:hover > :is(.title,.subtitle){
+    color:var(--text-hover);
+}

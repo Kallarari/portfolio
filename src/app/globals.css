@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+:root {
+  --primary: white;
+  --secondary: slateGray;
+  --text: black;
+  --active: black;
+  --inactive: slateGray;
+}
+
+* {
+  transition-duration: .5s;
+}
+
+body{
+  background-color: var(--primary);
+}
+
+#theme-switch,
+:root:has(#theme-switch:checked) {
+  --primary: #222327;
+  --primary-contrast: #3e4148;
+  --secondary: #ddd;
+  --text: white;
+  --border-left: none;
+  --border-bottom: none;
+  --text-hover:black;
+  --hover-background: white;
+  --active: slateGray;
+  --inactive: white;
+}
+
+#theme-switch,
+:root:has(#theme-switch:not(:checked)) {
+  --primary: white;
+  --primary-contrast: #e9e9e9;
+  --border-left: 2px solid #000;
+  --border-bottom: 2px solid #000;
+  --secondary: #ddd;
+  --text-hover:black;
+  --hover-background: #ddd;
+  --text: black;
+  --active: black;
+  --inactive: slateGray;
+}

@@ -1,0 +1,12 @@
+.IconContainer {
+    padding-left: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    color: var(--text);
+}
+.codeContainer{
+    background-color: var(--secondary);
+}

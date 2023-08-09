@@ -1,0 +1,32 @@
+.language-selector {
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-inline:10px;
+}
+
+#language-select {
+  appearance: none;
+  outline: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#language-select option {
+  font-size: 16px;
+  border:1px solid grey;
+}
+#language-select::-ms-expand {
+  display: none;
+}
+
+.language-selector:focus-within {
+  box-shadow: 0 0 0 3px rgba(0, 128, 255, 0.3);
+}
