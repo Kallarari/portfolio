@@ -23,7 +23,7 @@ export const ProjectsMock = (selected?: string) => {
       title: t("projects-page.projects.third"),
       filter: ["coolest"],
       technologies:["javascript"],
-      link:""
+      link:"https://chalenge-nu.vercel.app/"
     },
     {
       image: "url(buy-me-a-coffee.png)",
