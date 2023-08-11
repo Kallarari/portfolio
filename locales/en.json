@@ -15,10 +15,15 @@
     "title": "Project colection developed by me.",
     "subtitle": "Check out the projects, tecnologies and results.",
     "button": "Browse",
-    "options":{
-      "first":"Payment",
-      "second":"More Complex",
-      "third":"Coolest"
+    "options": {
+      "first": "Payment",
+      "second": "More Complex",
+      "third": "Coolest"
+    },
+    "projects": {
+      "first": "Briefing JVM",
+      "second": "JVM site",
+      "third": "Music app"
     }
   },
   "about-me": {

@@ -18,10 +18,15 @@
     "title": "Coleção de projetos desenolvidos por mim.",
     "subtitle": "Navegue pelos projetos,tecnologias e os resultados.",
     "button": "Ver projetos!",
-    "options":{
-      "first":"Pagamento",
-      "second":"Mais Complexos",
-      "third":"Mais Legais"
+    "options": {
+      "first": "Pagamento",
+      "second": "Mais Complexos",
+      "third": "Mais Legais"
+    },
+    "projects": {
+      "first": "Orçamento JVM",
+      "second": "site da JVM",
+      "third": "Aplicativo de música"
     }
   },
   "about-me": {

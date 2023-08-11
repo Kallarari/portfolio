@@ -4,18 +4,47 @@ import "./styles.css";
 import ShowCaseCard from "./ShowCaseCard";
 import { useTranslation } from "react-i18next";
 import Button from "../Button";
+import { ProjectsMock } from "./projects.mock";
 
 const ShowCase: React.FC = () => {
   const { t } = useTranslation();
-  const [selected, setSelected] = useState(Number)
+  const [selected, setSelected] = useState(String);
   return (
     <div className="container">
       <div className="buttons-container">
-      <Button style={selected===1?"selected":"borded"} onClick={()=>setSelected(1)} text={t('projects-page.options.first')} />
-      <Button style={selected===2?"selected":"borded"} onClick={()=>setSelected(2)} text={t('projects-page.options.second')} />
-      <Button style={selected===3?"selected":"borded"} onClick={()=>setSelected(3)} text={t('projects-page.options.third')} />
+        <Button
+          style={selected === "payment" ? "selected" : "borded"}
+          onClick={() =>
+            selected === "payment" ? setSelected("") : setSelected("payment")
+          }
+          text={t("projects-page.options.first")}
+        />
+        <Button
+          style={selected === "complex" ? "selected" : "borded"}
+          onClick={() =>
+            selected === "complex" ? setSelected("") : setSelected("complex")
+          }
+          text={t("projects-page.options.second")}
+        />
+        <Button
+          style={selected === "coolest" ? "selected" : "borded"}
+          onClick={() =>
+            selected === "coolest" ? setSelected("") : setSelected("coolest")
+          }
+          text={t("projects-page.options.third")}
+        />
       </div>
-      <ShowCaseCard title="Buy me a coffe" image="buy-me-a-coffee.png" />
+      <div className="card-wraper">
+        {ProjectsMock(selected).map((item, key) => (
+          <ShowCaseCard
+            link={item.link}
+            technologies={item.technologies}
+            key={key}
+            title={item.title}
+            image={item.image}
+          />
+        ))}
+      </div>
     </div>
   );
 };

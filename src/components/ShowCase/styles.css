@@ -4,3 +4,9 @@
     gap:30px;
     margin-bottom: 30px;
 }
+.card-wraper{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
