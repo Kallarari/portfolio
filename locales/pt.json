@@ -29,6 +29,12 @@
       "third": "Aplicativo de música"
     }
   },
+  "best-bugs-page": { "title": "Os problemas mais cabeludos que resolvi", "subtitle": "Tutoriais, perguntas do Stack Overflow e experiências de trabalho.",
+  "options": {
+    "first": "Tutoriais",
+    "second": "Stack Overflow",
+    "third": "Problemas praticos"
+  } },
   "about-me": {
     "title": "Coleção de projetos desenolvidos por mim.",
     "subtitle": "Abaixo você pode conferir as tecnologias e filtros aplicáveis.",

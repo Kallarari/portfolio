@@ -1,12 +1,12 @@
 "use client";
 import React, { useState } from "react";
 import "./styles.css";
-import ShowCaseCard from "./ShowCaseCard";
 import { useTranslation } from "react-i18next";
 import Button from "../Button";
-import { ProjectsMock } from "./projects.mock";
+import { BestBugsMock } from "./bestBugs.mock";
+import BestBugsCard from "./bestBugsCard";
 
-const ShowCase: React.FC = () => {
+const BestBugsContainer: React.FC = () => {
   const { t } = useTranslation();
   const [selected, setSelected] = useState(String);
   return (
@@ -14,29 +14,32 @@ const ShowCase: React.FC = () => {
       <div className="buttons-container">
         <Button
           style={selected === "payment" ? "selected" : "borded"}
+          width="300px"
           onClick={() =>
             selected === "payment" ? setSelected("") : setSelected("payment")
           }
-          text={t("projects-page.options.first")}
+          text={t("best-bugs-page.options.first")}
         />
         <Button
           style={selected === "complex" ? "selected" : "borded"}
+          width="300px"
           onClick={() =>
             selected === "complex" ? setSelected("") : setSelected("complex")
           }
-          text={t("projects-page.options.second")}
+          text={t("best-bugs-page.options.second")}
         />
         <Button
           style={selected === "coolest" ? "selected" : "borded"}
+          width="300px"
           onClick={() =>
             selected === "coolest" ? setSelected("") : setSelected("coolest")
           }
-          text={t("projects-page.options.third")}
+          text={t("best-bugs-page.options.third")}
         />
       </div>
       <div className="card-wraper">
-        {ProjectsMock(selected).map((item, key) => (
-          <ShowCaseCard
+        {BestBugsMock(selected).map((item, key) => (
+          <BestBugsCard
             link={item.link}
             technologies={item.technologies}
             key={key}
@@ -49,4 +52,4 @@ const ShowCase: React.FC = () => {
   );
 };
 
-export default ShowCase;
+export default BestBugsContainer;

@@ -3,14 +3,14 @@ import "./styles.css";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Link from "next/link";
 
-interface ShowCaseCardProps {
+interface BestBugsCardProps {
   title: string;
   image: string;
   technologies: string[];
   link: string;
 }
 
-const ShowCaseCard: React.FC<ShowCaseCardProps> = ({
+const BestBugsCard: React.FC<BestBugsCardProps> = ({
   title,
   image,
   technologies,
@@ -51,4 +51,4 @@ const ShowCaseCard: React.FC<ShowCaseCardProps> = ({
   );
 };
 
-export default ShowCaseCard;
+export default BestBugsCard;

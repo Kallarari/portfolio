@@ -7,9 +7,9 @@ import { useTranslation } from "react-i18next";
 const Footer: React.FC = () => {
   const { t } = useTranslation();
   return (
-    <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
+    <div className="text-center  lg:text-left footer-container">
       <FooterCard
-        link="/projects"
+        link="projects"
         title={t('projects.title')}
         subtitle={t("projects.subtitle")}
       />
@@ -19,12 +19,12 @@ const Footer: React.FC = () => {
         subtitle={t("about.subtitle")}
       />
       <FooterCard
-        link=""
+        link="bestBugs"
         title={t("templates.title")}
         subtitle={t("templates.subtitle")}
       />
       <FooterCard
-        link="/solvedProblems"
+        link="contact"
         title={t("contact.title")}
         subtitle={t("contact.subtitle")}
       />

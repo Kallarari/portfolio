@@ -1,7 +1,7 @@
 "use client";
 import { useTranslation } from "react-i18next";
 
-export const ProjectsMock = (selected?: string) => {
+export const BestBugsMock = (selected?: string) => {
   const { t } = useTranslation();
   const mock = [
     {

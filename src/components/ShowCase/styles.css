@@ -1,12 +1,25 @@
-.container{}
-.buttons-container{
-    display: flex;
-    gap:30px;
-    margin-bottom: 30px;
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
 }
-.card-wraper{
-    display: flex;
-    gap:20px;
-    flex-wrap: wrap;
-    justify-content: center;
+
+@media (max-width: 1500px) {
+  .showcase-container {
+    max-width: 1000px;
+    padding-top: 60px;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  gap: 30px;
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+}
+.card-wraper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }

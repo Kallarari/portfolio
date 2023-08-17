@@ -1,14 +1,26 @@
-.title{
-    color:var(--text);
+.footer-card-title {
+  color: var(--text);
+  text-align: left;
 }
-.subtitle{
-    color:var(--text);
+.footer-card-subtitle {
+  color: var(--text);
+  text-align: left;
 }
-.card-group:hover{
-    border: 1px solid gray;
-    background-color: var(--hover-background);
+.card-group {
+  width: 340px;
+  text-align: left;
 }
 
-.card-group:hover > :is(.title,.subtitle){
-    color:var(--text-hover);
+@media (max-width: 1500px) {
+  .card-group {
+    width: 270px;
+  }
+}
+.card-group:hover {
+  border: 1px solid gray;
+  background-color: var(--hover-background);
+}
+
+.card-group:hover > :is(.footer-card-title, .footer-card-subtitle) {
+  color: var(--text-hover);
 }

@@ -26,6 +26,12 @@ body {
 
 body{
   background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline:auto;
+  align-items: center;
+  padding: 30px 0;
 }
 
 #theme-switch,

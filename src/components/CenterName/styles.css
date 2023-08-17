@@ -1,17 +1,23 @@
 @font-face {
-  font-family: 'Raleway';
-  src: url('../../../public/fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-family: "Raleway";
+  src: url("../../../public/fonts/Raleway-VariableFont_wght.ttf")
+    format("truetype");
 }
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20vh;
+}
+@media (max-width: 1500px) {
+    .container {
+      padding-top: 15vh;
+    }
   }
 .NameText {
-    font-family: Raleway;
-    color:var(--text);
-    font-weight: bolder;
-    font-size: 35px;
-    transition-duration: .5s;
-  }
-  
+  font-family: Raleway;
+  color: var(--text);
+  font-weight: bolder;
+  font-size: 35px;
+  transition-duration: 0.5s;
+}

@@ -26,9 +26,18 @@
       "third": "Music app"
     }
   },
+  "best-bugs-page": {
+    "title": "Best bugs and issues that I solved",
+    "subtitle": "StackOverflow, tutorial or job experiencies.",
+    "options": {
+      "first": "Tutorials",
+      "second": "Stack Overflow",
+      "third": "Jobs solveds problems"
+    }
+  },
   "about-me": {
     "title": "About by me.",
-    "subtitle": "Check informations about mes.",
+    "subtitle": "Check informations about me.",
     "button": "Browse"
   }
 }
