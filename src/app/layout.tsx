@@ -7,10 +7,6 @@ import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "JVM Stack",
-  description: "João Vitor Minosso stack showcase",
-};
 
 export default function RootLayout({
   children,
