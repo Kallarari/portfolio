@@ -21,19 +21,25 @@ body {
 }
 
 * {
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
-body{
+body {
   background-color: var(--primary);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-inline:auto;
+  margin-inline: auto;
   align-items: center;
-  padding: 30px 0;
+  padding: 30px 0 0 0;
+  max-width: 1300px;
 }
 
+@media (max-width: 1500px) {
+  body {
+    max-width: 1080px;
+  }
+}
 #theme-switch,
 :root:has(#theme-switch:checked) {
   --primary: #222327;
@@ -42,7 +48,7 @@ body{
   --text: white;
   --border-left: none;
   --border-bottom: none;
-  --text-hover:black;
+  --text-hover: black;
   --hover-background: white;
   --active: slateGray;
   --inactive: white;
@@ -55,7 +61,7 @@ body{
   --border-left: 2px solid #000;
   --border-bottom: 2px solid #000;
   --secondary: #ddd;
-  --text-hover:black;
+  --text-hover: black;
   --hover-background: #ddd;
   --text: black;
   --active: black;

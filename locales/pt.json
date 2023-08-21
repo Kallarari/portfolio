@@ -38,6 +38,12 @@
   "about-me": {
     "title": "Coleção de projetos desenolvidos por mim.",
     "subtitle": "Abaixo você pode conferir as tecnologias e filtros aplicáveis.",
-    "button": "Ver projetos!"
+    "button": "Ver projetos!",
+    "description":"    Tenho experiência em desenvolvimento web, operando tanto no planejamento, como desenvolvimento e deploy de aplicações. Programo usando algumas das melhores praticas, como Design Patterns, padrões Arquiteturais, Clean Code, SOLID, etc...Sou desenvolvedor desde 2017 e trabalho com web em com times ágeis usando SCRUM e KAMBAM a mais de 3 anos.    Sou de fácil comunicação e muito empolgado com novos projetos e tecnologias."
+  },
+  "catact": {
+    "title": "Contate-me page",
+    "subtitle": "Veja mais informações sobre mim.",
+    "button": "Navegar"
   }
 }

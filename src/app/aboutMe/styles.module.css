@@ -1,32 +1,43 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    padding: 30px;
-    justify-content: center;
-    margin-inline:auto;
-    align-items: center;
+.about_me_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px;
+  justify-content: center;
+  margin-inline: auto;
+  align-items: center;
 }
 .title {
-    font-size: 40px;
-    margin-bottom: 16px;
-    font-weight: 500;
-    text-align: center;
-    max-width: 470px;
-    margin-inline: auto;
-    color:var(--text);
+  font-size: 40px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 470px;
+  margin-inline: auto;
+  color: var(--text);
 }
 .subtitle {
-    font-size: 20px;
-    color:var(--text);
-    margin-bottom: 32px;
-    font-weight: 400;
-    text-align: center;
-    margin-inline: auto;
+  font-size: 20px;
+  color: var(--text);
+  margin-bottom: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-inline: auto;
 }
-.titleCcontainer{
-    padding: 140px 0 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+.titleCcontainer {
+  padding: 140px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.me_image{
+  width: 300px;
+  border-radius: 10px;
+}
+.description_container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
 }

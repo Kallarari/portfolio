@@ -7,11 +7,15 @@ import Button from "@/components/Button";
 const AboutMe: React.FC = () => {
   const { t } = useTranslation();
   return (
-    <div className={style.container}>
+    <div className={style.about_me_container}>
       <div className={style.titleCcontainer}>
         <h1 className={style.title}>{t("about-me.title")}</h1>
+        <div className={style.description_container}>
+          <img alt="me picture" src="/me.png" className={style.me_image} />
+          <h2 className={style.subtitle}>{t("about-me.description")}</h2>
+        </div>
         <h2 className={style.subtitle}>{t("about-me.subtitle")}</h2>
-        <Button text={t("about-me.button")} onClick={()=>{}} />
+        <Button text={t("about-me.button")} onClick={() => {}} />
       </div>
     </div>
   );

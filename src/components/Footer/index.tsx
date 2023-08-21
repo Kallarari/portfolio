@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 const Footer: React.FC = () => {
   const { t } = useTranslation();
   return (
-    <div className="text-center  lg:text-left footer-container">
+    <div className="text-center lg:text-left footer-container">
       <FooterCard
         link="projects"
         title={t('projects.title')}
