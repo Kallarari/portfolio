@@ -1,0 +1,49 @@
+.container_contact_card {
+  width: 400px;
+  height: 400px;
+  box-shadow: 2px 2px 5px var(--primary-contrast);
+  background-color: var(--secondary);
+  border-radius: 8px;
+  position: relative;
+  margin-top: 160px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container_contact_secundary {
+  display: flex;
+  gap: 20px;
+}
+.container_contact_card::after {
+  content: "";
+  background-color: var(--text);
+  background-size: 240px;
+  width: 240px;
+  opacity: 0.1;
+  height: 240px;
+  position: absolute;
+  bottom: -120px;
+  right: -140px;
+  z-index: -1;
+  mask-image: url("./../../../public/circles-vetor.png");
+  mask-size: 300px;
+}
+.container_contact_card::before {
+  content: "";
+  opacity: 0.2;
+  background-image: url("./../../../public/circles-vetor.png");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  bottom: -120px;
+  right: -140px;
+  z-index: -1;
+}
+@media (max-width: 1500px) {
+  .container_contact_card {
+    margin-top: 30px;
+  }
+}

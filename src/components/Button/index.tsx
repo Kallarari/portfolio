@@ -1,16 +1,16 @@
-import React from "react";
+import React, { ButtonHTMLAttributes } from "react";
 import "./styles.css";
 
-interface buttonProps {
+interface buttonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
   onClick: () => void;
-  style?: "normal" | "borded" | "selected";
+  styleType?: "normal" | "borded" | "selected";
   width?:string;
 }
-const Button: React.FC<buttonProps> = ({ text, onClick, style, width }) => {
+const Button: React.FC<buttonProps> = ({ text, onClick, styleType, width }) => {
   return (
     <button
-      className={style? style : "button"}
+      className={styleType? styleType : "button"}
       onClick={onClick}
       style={{width:width}}
     >

@@ -13,7 +13,7 @@ const BestBugsContainer: React.FC = () => {
     <div className="showcase-container">
       <div className="buttons-container">
         <Button
-          style={selected === "payment" ? "selected" : "borded"}
+          styleType={selected === "payment" ? "selected" : "borded"}
           width="300px"
           onClick={() =>
             selected === "payment" ? setSelected("") : setSelected("payment")
@@ -21,7 +21,7 @@ const BestBugsContainer: React.FC = () => {
           text={t("best-bugs-page.options.first")}
         />
         <Button
-          style={selected === "complex" ? "selected" : "borded"}
+          styleType={selected === "complex" ? "selected" : "borded"}
           width="300px"
           onClick={() =>
             selected === "complex" ? setSelected("") : setSelected("complex")
@@ -29,7 +29,7 @@ const BestBugsContainer: React.FC = () => {
           text={t("best-bugs-page.options.second")}
         />
         <Button
-          style={selected === "coolest" ? "selected" : "borded"}
+          styleType={selected === "coolest" ? "selected" : "borded"}
           width="300px"
           onClick={() =>
             selected === "coolest" ? setSelected("") : setSelected("coolest")

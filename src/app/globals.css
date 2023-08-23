@@ -1,3 +1,7 @@
+
+input{
+  width: 100%;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -52,6 +56,7 @@ body {
   --hover-background: white;
   --active: slateGray;
   --inactive: white;
+  --text-contrast:#222327;
 }
 
 #theme-switch,
@@ -66,4 +71,5 @@ body {
   --text: black;
   --active: black;
   --inactive: slateGray;
+  --text-contrast:#222327;
 }

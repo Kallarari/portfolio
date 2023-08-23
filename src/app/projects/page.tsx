@@ -1,9 +1,7 @@
 "use client";
 import React from "react";
 import "./styles.css";
-import Header from "@/components/Header";
 import { useTranslation } from "react-i18next";
-import Button from "@/components/Button";
 import ShowCase from "@/components/ShowCase";
 
 const Projects: React.FC = () => {

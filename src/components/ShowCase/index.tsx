@@ -13,21 +13,21 @@ const ShowCase: React.FC = () => {
     <div className="showcase-container">
       <div className="buttons-container">
         <Button
-          style={selected === "payment" ? "selected" : "borded"}
+          styleType={selected === "payment" ? "selected" : "borded"}
           onClick={() =>
             selected === "payment" ? setSelected("") : setSelected("payment")
           }
           text={t("projects-page.options.first")}
         />
         <Button
-          style={selected === "complex" ? "selected" : "borded"}
+          styleType={selected === "complex" ? "selected" : "borded"}
           onClick={() =>
             selected === "complex" ? setSelected("") : setSelected("complex")
           }
           text={t("projects-page.options.second")}
         />
         <Button
-          style={selected === "coolest" ? "selected" : "borded"}
+          styleType={selected === "coolest" ? "selected" : "borded"}
           onClick={() =>
             selected === "coolest" ? setSelected("") : setSelected("coolest")
           }
