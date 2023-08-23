@@ -16,13 +16,21 @@
   margin-inline: auto;
   color: var(--text);
 }
-.subtitle {
+.subtitle, .subtitle_one_collum {
   font-size: 20px;
   color: var(--text);
   margin-bottom: 32px;
   font-weight: 400;
   text-align: center;
   margin-inline: auto;
+  width: fit-content;
+  display: flex;
+  max-width: 1080px;
+  padding-left: 30px;
+}
+.subtitle_one_collum {
+  padding-left: 0;
+  text-align: left;
 }
 .titleCcontainer {
   padding: 140px 0 20px 0;

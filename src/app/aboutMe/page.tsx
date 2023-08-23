@@ -14,7 +14,16 @@ const AboutMe: React.FC = () => {
           <img alt="me picture" src="/me.png" className={style.me_image} />
           <h2 className={style.subtitle}>{t("about-me.description")}</h2>
         </div>
-        <h2 className={style.subtitle}>{t("about-me.subtitle")}</h2>
+        
+        <h1 className={style.title}>{t("about-me.formations")}</h1>
+        <div className={style.description_container}>
+          <pre className={style.subtitle_one_collum}>{t("about-me.formations-content")} </pre>
+        </div>
+        
+        <h1 className={style.title}>{t("about-me.experiences")}</h1>
+        <div className={style.description_container}>
+          <pre className={style.subtitle_one_collum}>{t("about-me.experiences-content")} </pre>
+        </div>
         <Button text={t("about-me.button")} onClick={() => {}} />
       </div>
     </div>
