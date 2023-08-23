@@ -1,0 +1,18 @@
+.carroussel_card{
+    text-align: center;
+    background-color: var(--primary-contrast);
+    flex-grow: 1;
+    height: 100px;
+    min-width: 200px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--text);
+    border-right: 1px solid var(--text);
+}

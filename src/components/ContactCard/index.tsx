@@ -16,9 +16,9 @@ const ContactCard: React.FC = () => {
   const { t } = useTranslation();
   const regex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
   const handleSendForm = () => {
-    if (!regex.test(formValues.email))return setError("e-mail incorreto");
     if (formValues.firstName==="") return setError("Primeiro Nome incompleto");
     if (formValues.lastName==="") return setError("Último Nome incompleto");
+    if (!regex.test(formValues.email))return setError("e-mail incorreto");
     if (formValues.feedback==="") return setError("Feedback incompleto");
     setError("");
     console.log(formValues);
@@ -32,7 +32,7 @@ const ContactCard: React.FC = () => {
       <form onSubmit={(e) => console.log(e)}>
         <div className={styles.container_contact_secundary}>
           <InputText
-            onchangeEvent={() => handleSendForm()}
+            onchangeEvent={(e) => handleChangeInput(e)}
             name="firstName"
             placeholder="John"
             label={t("contact-page.first-name")}
