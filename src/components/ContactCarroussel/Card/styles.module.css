@@ -1,6 +1,6 @@
 .carroussel_card{
     text-align: center;
-    background-color: var(--primary-contrast);
+    background-color: var(--secondary);
     flex-grow: 1;
     height: 100px;
     min-width: 200px;
