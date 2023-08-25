@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
+  return [/* 
     {
       url: process.env.PORTFOLIO_URL!,
       lastModified: new Date(),
@@ -29,6 +29,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: process.env.PORTFOLIO_URL + 'contact',
       lastModified: new Date(),
-    },
+    }, */
   ];
 }

@@ -14,7 +14,7 @@ export const metadata = {
   description:
     'Portfólio onde eu apresento minhas habilidades no desenvolvimento web, conhecimentos, experiência e os projetos em que já trabalhei.',
   category: 'Portfolio',
-  metadataBase: new URL(process.env.PORTFOLIO_URL!),
+  //metadataBase: new URL(process.env.PORTFOLIO_URL!),
   openGraph: {
     type: 'website',
     title: 'João Vitor Minosso - Desenvolvedor Front-end',
@@ -23,7 +23,7 @@ export const metadata = {
       'O mostruário da minha stack e experiências.',
     countryName: 'Brazil',
     siteName: 'João Vitor Minosso - Desenvolvedor Front-end',
-    url: process.env.PORTFOLIO_URL,
+    //url: process.env.PORTFOLIO_URL,
     phoneNumbers: '+5548999484088',
     locale: 'pt-BR',
     images: '/me.png',
@@ -54,14 +54,14 @@ export const metadata = {
   },
   appleWebApp: {
     title: 'João Vitor Minosso - Desenvolvedor Front-end',
-    startupImage: process.env.PORTFOLIO_URL,
+    //startupImage: process.env.PORTFOLIO_URL,
   },
   generator: 'Next.js',
   twitter: {
     title: 'João Vitor Minosso - Desenvolvedor Front-end',
     creator: 'João Vitor Minosso',
     creatorId: '@kallarari',
-    site: process.env.PORTFOLIO_URL,
+    //site: process.env.PORTFOLIO_URL,
     images: '/me.png',
   },
 };
