@@ -25,7 +25,7 @@ i18n
       escapeValue: false, // permite que você use códigos HTML em suas traduções
     },
     react: {
-      wait: true,
+      useSuspense: true,
     },
   });
 

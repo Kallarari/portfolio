@@ -1,0 +1,90 @@
+.chartContainer {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chartLabel {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-size: 25px;
+  font-weight: 500;
+  margin: auto auto;
+}
+.labelsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.stackShowcaseTechnologies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.stackShowcase{
+    display: flex;
+    flex-direction: column;
+}
+.profissionalExperiencesContainer {
+  background-color: var(--secondary);
+  border-radius: 5px;
+}
+.headProfissionalExperiences {
+  width: 400px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 20px;
+}
+.profissionalExperiencesBody {
+  display: flex;
+  justify-content: flex-start;
+  height: 200px;
+  border-top: 2px solid var(--primary);
+  width: 400px;
+  flex-direction: column;
+  overflow: auto;
+  height: 400px;
+  gap:5px;
+  padding-top: 0px;
+}
+.profissionalExperiencesSelectAnTech {
+  color: var(--primary);
+  font-size: 30px;
+  margin: auto auto;
+}
+.profissionalExperiencesTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.profissionalExperiencesCompanyName {
+  text-align: center;
+  width: 100%;
+  color: var(--primary);
+  font-size: 20px;
+  background-color: var(--soft-contrast);
+  padding: 8px 0px;
+}
+.profissionalExperiencesCompanyNameContainer{
+    width: 100%;
+}
+.profissionalExperiencesExperienceInformationContainer{
+    padding:  10px 10px;
+    border-top: 1px dotted var(--primary);
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: var(--soft-contrast);
+}
+.profissionalExperiencesExperienceInformation{
+    color: var(--primary);
+}
+.chartLabelText{
+    color: var(--text);
+}
