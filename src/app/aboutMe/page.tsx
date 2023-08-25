@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import Button from "@/components/Button";
 import StackShowSession from "@/components/StackShowSession";
 import { useRouter } from 'next/navigation'
+import Image from "next/image";
 
 const AboutMe: React.FC = () => {
   const router = useRouter();
@@ -20,7 +21,7 @@ const AboutMe: React.FC = () => {
         <h1 className={style.title}>{t("about-me.title")}</h1>
       </div>
       <div className={style.description_container}>
-        <img alt="me picture" src="/me.png" className={style.me_image} />
+        <Image alt="me picture" src="/me.png" width={300} height={200} className={style.me_image} />
         <h2 className={style.subtitle}>{t("about-me.description")}</h2>
       </div>
       <h1 className={style.title}>{t("about-me.formations")}</h1>
