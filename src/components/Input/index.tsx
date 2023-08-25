@@ -1,3 +1,4 @@
+"use client";
 import React, { ChangeEventHandler, InputHTMLAttributes } from "react";
 import styles from "./styles.module.css";
 

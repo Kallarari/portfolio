@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect } from "react";
 import "./styles.css";
 import { Icon } from "@iconify/react/dist/iconify.js";

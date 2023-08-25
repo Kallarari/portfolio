@@ -1,5 +1,5 @@
+"use client";
 import React from "react";
-
 import styles from "./styles.module.css";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Link from "next/link";
