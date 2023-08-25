@@ -13,7 +13,7 @@ const resources = {
 };
 
 let language = "en";
-if (navigator.language) language = navigator.language;
+if (typeof window !== "undefined") language = window.navigator.language;
 
 i18n
   .use(initReactI18next) // inicializa o react-i18next
