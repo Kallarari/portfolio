@@ -5,32 +5,25 @@ export const BestBugsMock = (selected?: string) => {
   const { t } = useTranslation();
   const mock = [
     {
-      image: "url(briefing-jvm.png)",
-      title: t("projects-page.projects.first"),
-      filter: ["coolest", "complex"],
+      image: "url(black-light-theme.png)",
+      title: t("best-bugs-page.solved-problems.black-light"),
+      filter: ["solved"],
       technologies:["typescript"],
-      link:"https://brtiefing-jvm.vercel.app/",
+      link:"https://dev.to/kallarari/how-i-make-darklight-theme-12m",
     },
     {
-      image: "url(jvm-site.png)",
-      title: t("projects-page.projects.second"),
-      filter: ["coolest"],
+      image: "url(internacionalização.png)",
+      title: t("best-bugs-page.solved-problems.internationalization"),
+      filter: ["tuto"],
       technologies:["javascript"],
-      link:"https://jvm-webmarketing.vercel.app/"
+      link:"https://www.youtube.com/watch?v=0n2nLY_bebM"
     },
     {
-      image: "url(vintage-app.png)",
-      title: t("projects-page.projects.third"),
-      filter: ["coolest"],
+      image: "url(react-dropzone.png)",
+      title: t("best-bugs-page.solved-problems.dropzone"),
+      filter: ["tuto"],
       technologies:["javascript"],
-      link:"https://chalenge-nu.vercel.app/"
-    },
-    {
-      image: "url(buy-me-a-coffee.png)",
-      title: "coolest just",
-      filter: ["payment"],
-      technologies:["typescript","javascript"],
-      link:""
+      link:"https://www.youtube.com/watch?v=0plPZBCzMrg"
     },
   ];
   return selected

@@ -2,7 +2,7 @@
   "name": "oão ",
   "projects": { "title": "Projetos", "subtitle": "Minha coleção de projetos." },
   "about": {
-    "title": "Sobre Min",
+    "title": "Sobre Mim",
     "subtitle": "Minha Stack e minhas experiências."
   },
   "templates": {
@@ -36,6 +36,11 @@
       "first": "Tutoriais",
       "second": "Stack Overflow",
       "third": "Problemas praticos"
+    },
+    "solved-problems":{
+      "black-light":"Thema claro e escuro",
+      "internationalization":"Internacionalização",
+      "dropzone":"Dropzone componente"
     }
   },
   "about-me": {

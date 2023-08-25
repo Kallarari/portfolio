@@ -33,6 +33,11 @@
       "first": "Tutorials",
       "second": "Stack Overflow",
       "third": "Jobs solveds problems"
+    },
+    "solved-problems":{
+      "black-light":"Black and Light theme",
+      "internationalization":"Internationalization",
+      "dropzone":"Dropzone component"
     }
   },
   "about-me": {

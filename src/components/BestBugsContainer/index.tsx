@@ -13,26 +13,26 @@ const BestBugsContainer: React.FC = () => {
     <div className="showcase-container">
       <div className="buttons-container">
         <Button
-          styleType={selected === "payment" ? "selected" : "borded"}
+          styleType={selected === "tuto" ? "selected" : "borded"}
           width="300px"
           onClick={() =>
-            selected === "payment" ? setSelected("") : setSelected("payment")
+            selected === "tuto" ? setSelected("") : setSelected("tuto")
           }
           text={t("best-bugs-page.options.first")}
         />
         <Button
-          styleType={selected === "complex" ? "selected" : "borded"}
+          styleType={selected === "stack" ? "selected" : "borded"}
           width="300px"
           onClick={() =>
-            selected === "complex" ? setSelected("") : setSelected("complex")
+            selected === "stack" ? setSelected("") : setSelected("stack")
           }
           text={t("best-bugs-page.options.second")}
         />
         <Button
-          styleType={selected === "coolest" ? "selected" : "borded"}
+          styleType={selected === "solved" ? "selected" : "borded"}
           width="300px"
           onClick={() =>
-            selected === "coolest" ? setSelected("") : setSelected("coolest")
+            selected === "solved" ? setSelected("") : setSelected("solved")
           }
           text={t("best-bugs-page.options.third")}
         />

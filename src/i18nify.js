@@ -1,7 +1,5 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-
-
 import enTranslation from '../locales/en.json';
 import ptTranslation from '../locales/pt.json';
 
@@ -14,12 +12,14 @@ const resources = {
   },
 };
 
+const language = navigator.language;
+
 i18n
   .use(initReactI18next) // inicializa o react-i18next
   .init({
     resources,
     debug: true,
-    lng: 'en', // idioma padrão
+    lng: language==='pt-BR'?"pt":"en", // idioma padrão
     fallbackLng: 'en', // idioma de fallback, caso o idioma preferido não esteja disponível
     interpolation: {
       escapeValue: false, // permite que você use códigos HTML em suas traduções

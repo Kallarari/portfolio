@@ -28,7 +28,7 @@ body {
   transition-duration: 0.5s;
 }
 body {
-  background-color: var(--primary);
+  background: linear-gradient(var(--background-end), var(--background-start));
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,6 +36,7 @@ body {
   align-items: center;
   padding: 30px 0 0 0;
   max-width: 1300px;
+  min-height: 100vh;
 }
 
 @media (max-width: 1500px) {
@@ -46,6 +47,8 @@ body {
 #theme-switch,
 :root:has(#theme-switch:checked) {
   --primary: #222327;
+  --background-end:#222327;
+  --background-start:#222327;
   --primary-contrast: #62656c;
   --secondary: #ddd;
   --secondary-contrast: #bcbbbb;
@@ -63,6 +66,8 @@ body {
 #theme-switch,
 :root:has(#theme-switch:not(:checked)) {
   --primary: #edf2f8;
+  --background-end:#d5d6d7;
+  --background-start:#edf2f8;
   --primary-contrast: #ffffff;
   --border-left: 2px solid #000;
   --border-bottom: 2px solid #000;

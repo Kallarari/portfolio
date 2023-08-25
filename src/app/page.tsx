@@ -1,4 +1,3 @@
-"use client";
 import CenterName from "@/components/CenterName";
 import Footer from "@/components/Footer";
 
