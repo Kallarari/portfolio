@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import "./styles.css";
+import styles from "./styles.module.css";
 import Link from "next/link";
 
 interface footerCardProps {
@@ -16,15 +16,15 @@ const FooterCard: React.FC<footerCardProps> = ({
   return (
     <Link
       href={link}
-      className="group rounded-lg border border-transparent px-5 py-4 transition-colors card-group"
+      className={styles.card_group}
     >
-      <h2 className={`mb-3 text-2xl font-semibold footer-card-title`}>
+      <h2 className={styles.footer_card_title}>
         {title}{" "}
-        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+        <span className={styles.footer_card_arrow}>
           -&gt;
         </span>
       </h2>
-      <p className={`m-0 max-w-[30ch] text-sm opacity-50 footer-card-subtitle`}>
+      <p className={styles.footer_card_subtitle}>
         {subtitle}
       </p>
     </Link>

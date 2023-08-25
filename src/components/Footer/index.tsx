@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-import "./styles.css";
+import styles from "./styles.module.css";
 import FooterCard from "./FooterCard";
 import { useTranslation } from "react-i18next";
 
 const Footer: React.FC = () => {
   const { t } = useTranslation();
   return (
-    <div className="text-center lg:text-left footer-container">
+    <div className={styles.footer_container}>
       <FooterCard
         link="projects"
         title={t('projects.title')}

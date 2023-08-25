@@ -13,26 +13,26 @@ const StackShowSession: React.FC = () => {
     {
       x: 10,
       value: 90,
-      fill: "#278894",
+      fill: "var(--react-icon)",
       icon: "ri:reactjs-fill",
       name: "React",
-      iconSize: 40,
+      iconSize: 30,
     },
     {
       x: 2,
       value: 80,
-      fill: "#0c142a",
+      fill: "var(--next-icon)",
       icon: "file-icons:nextjs",
       name: "NextJS",
-      iconSize: 36,
+      iconSize: 30,
     },
     {
       x: 2,
       value: 60,
-      fill: "#117453",
+      fill: "var(--expo-icon)",
       icon: "cib:expo",
       name: "Expo/ReactNative",
-      iconSize: 36,
+      iconSize: 30,
     },
   ];
   const profissionalExperiences = [
@@ -112,7 +112,6 @@ const StackShowSession: React.FC = () => {
               tick={false}
             />
             <RadialBar
-              background
               isAnimationActive={false}
               dataKey="value"
               onMouseOver={(e) => setTechnologiSelected(e.name)}

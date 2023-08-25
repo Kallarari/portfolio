@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import "./styles.css";
+import styles from "./styles.module.css";
 import { useTranslation } from "react-i18next";
 
 const MeuComponente: React.FC = () => {
@@ -56,8 +56,8 @@ const MeuComponente: React.FC = () => {
     };
   }, []);
   return (
-    <div className="container">
-      <h1 className="NameText">
+    <div className={styles.container}>
+      <h1 className={styles.name_text}>
         <strong>J</strong>
         {firstText}
         <strong>V</strong>

@@ -14,6 +14,7 @@
   max-width: 470px;
   margin-inline: auto;
   color: var(--text);
+  padding-top: 40px;
 }
 .subtitle, .subtitle_one_collum {
   font-size: 20px;
@@ -32,7 +33,7 @@
   text-align: left;
 }
 .title_container {
-  padding: 0px 0 20px 0;
+  padding: 40px 0 20px 0;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -46,7 +47,7 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 .another_options{
   padding-top: 30px;
