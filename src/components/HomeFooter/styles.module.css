@@ -1,0 +1,15 @@
+.home_footer_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 1500px) {
+  .home_footer_container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    justify-items: center;
+  }
+}

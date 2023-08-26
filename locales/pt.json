@@ -37,14 +37,14 @@
       "second": "Stack Overflow",
       "third": "Problemas praticos"
     },
-    "solved-problems":{
-      "black-light":"Thema claro e escuro",
-      "internationalization":"Internacionalização",
-      "dropzone":"Dropzone componente"
+    "solved-problems": {
+      "black-light": "Thema claro e escuro",
+      "internationalization": "Internacionalização",
+      "dropzone": "Dropzone componente"
     }
   },
   "about-me": {
-    "initial-date":"data de início",
+    "initial-date": "data de início",
     "title": "Sobre Mim",
     "stack": "Minha stack",
     "subtitle": "Abaixo você pode conferir as tecnologias e filtros aplicáveis.",
@@ -58,7 +58,7 @@
     "experiences": "EXPERIÊNCIAS PROFISSIONAIS",
     "stack-show-session": {
       "headProfissionalExperiences": "Experiências Profissionais",
-      "select-and-technology":"Selecione uma tecnologia"
+      "select-and-technology": "Selecione uma tecnologia"
     }
   },
   "contact-page": {
@@ -68,5 +68,18 @@
     "first-name": "Primeiro Nome*",
     "last-name": "Último Nome*",
     "feedback-placeholder": "Seu feedback sobre mim ou sobre meu site..."
+  },
+  "footer": {
+    "thaks-text": "   Parece que você é atento aos detalhes,\nassim como eu. Se quiser me conhecer melhor, \nfique à vontade para explorar minhas redes\nsociais ou baixar meu currículo para conhecer\nmelhor minha trajetória.\n            Obrigado pela visita!",
+    "util": "UTILIDADE",
+    "home": "HOME",
+    "contact": "CONTATO",
+    "about": "SOBRE-MIM",
+    "projects": "PROJETOS",
+    "best-bugs": "MAIORES BUGS",
+    "terms": "TERMOS DE PRIVACIDADE",
+    "conditions": "CONDIÇÕES DE PRIVACIDADE",
+    "feedback": "DEIXE SEU FEEDBACK",
+    "this-github": "GITHUB DESSE PROJETO"
   }
 }

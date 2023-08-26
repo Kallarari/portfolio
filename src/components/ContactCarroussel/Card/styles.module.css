@@ -1,8 +1,8 @@
 .carroussel_card{
     text-align: center;
-    background-color: var(--secondary);
-    border-bottom: 1px solid var(--text);
-    border-right: 1px solid var(--text);
+    background-color: var(--primary-contrast);
+    border-bottom: 1px solid var(--secondary);
+    border-right: 1px solid var(--secondary);
     flex-grow: 1;
     height: 100px;
     min-width: 200px;
@@ -15,4 +15,7 @@
     align-items: center;
     cursor: pointer;
     justify-content: space-around;
+}
+.carroussel_card:hover{    
+    background-color: var(--secondary);
 }

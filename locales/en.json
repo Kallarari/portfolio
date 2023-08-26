@@ -34,14 +34,14 @@
       "second": "Stack Overflow",
       "third": "Jobs solveds problems"
     },
-    "solved-problems":{
-      "black-light":"Black and Light theme",
-      "internationalization":"Internationalization",
-      "dropzone":"Dropzone component"
+    "solved-problems": {
+      "black-light": "Black and Light theme",
+      "internationalization": "Internationalization",
+      "dropzone": "Dropzone component"
     }
   },
   "about-me": {
-    "initial-date":"initial date",
+    "initial-date": "initial date",
     "title": "About me",
     "stack": "My stack",
     "subtitle": "Check informations about me.",
@@ -65,5 +65,18 @@
     "first-name": "First Name*",
     "last-name": "Last Name*",
     "feedback-placeholder": "Your feedback about me or about my website..."
+  },
+  "footer": {
+    "thaks-text": " It seems you have an eye for details,\nmuch like myself. If you'd like to get \nbetter acquainted, feel free to explore \nmy social networks or download my resume \nfor a deeper insight into my background.\n      Thank you for stopping by!",
+    "util": "UTIL",
+    "home": "HOME",
+    "contact": "CONTACT",
+    "about": "ABOUT-ME",
+    "projects": "PROJECTS",
+    "best-bugs": "BEST BUGS",
+    "terms": "PRIVACY TERMS",
+    "conditions": "PRIVACY CONDITIONS",
+    "feedback": "GIVE YOUR FEEDBACK",
+    "this-github": "THIS PROJECT GITHUB"
   }
 }

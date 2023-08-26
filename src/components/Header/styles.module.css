@@ -4,9 +4,6 @@
   display: flex;
   align-items: center;
 }
-.icon {
-  color: var(--text);
-}
 .codeContainer {
   background-color: var(--secondary);
 }
@@ -43,6 +40,9 @@
 }
 .icons_container {
   display: flex;
+}
+.icon {
+  color: var(--text);
 }
 .configuration_container {
   display: flex;

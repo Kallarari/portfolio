@@ -3,6 +3,7 @@ import React from "react";
 import "./styles.css";
 import { useTranslation } from "react-i18next";
 import ShowCase from "@/components/ShowCase";
+import Footer from "@/components/Footer";
 
 const Projects: React.FC = () => {
   const { t } = useTranslation();
@@ -12,7 +13,7 @@ const Projects: React.FC = () => {
         <h1 className="title">{t("projects-page.title")}</h1>
         <h2 className="subtitle">{t("projects-page.subtitle")}</h2>
       </div>
-      <ShowCase />
+      <ShowCase />      
     </div>
   );
 };
