@@ -140,9 +140,9 @@ const StackShowSession: React.FC = () => {
           </div>
         </div>
         <div className={style.profissionalExperiencesContainer}>
-          <th className={style.headProfissionalExperiences}>
+          <span className={style.headProfissionalExperiences}>
             {t("about-me.stack-show-session.headProfissionalExperiences")}
-          </th>
+          </span>
           <div className={style.profissionalExperiencesBody}>
             {technologySelected === "" ? (
               <h2 className={style.profissionalExperiencesSelectAnTech}>
