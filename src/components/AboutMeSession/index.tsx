@@ -10,7 +10,7 @@ const AboutMeSession: React.FC = () => {
     <div className={style.description_container}>
       <Image
         alt="me picture"
-        src="/me.png"
+        src="/me.PNG"
         width={300}
         height={200}
         className={style.me_image}

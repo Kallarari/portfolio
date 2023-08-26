@@ -1,6 +1,6 @@
 .borded, .selected, .button{
     background-color: var(--primary-contrast);
-    color:var(--primary);
+    color:var(--text);
     padding: 10px 15px;
     border-radius: 8px;
     border-bottom:var(--border-bottom);

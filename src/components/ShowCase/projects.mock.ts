@@ -5,21 +5,21 @@ export const ProjectsMock = (selected?: string) => {
   const { t } = useTranslation();
   const mock = [
     {
-      image: "url(briefing-jvm.png)",
+      image: "url(briefing-jvm.PNG)",
       title: t("projects-page.projects.first"),
       filter: ["coolest", "complex"],
       technologies:["typescript"],
       link:"https://brtiefing-jvm.vercel.app/",
     },
     {
-      image: "url(jvm-site.png)",
+      image: "url(jvm-site.PNG)",
       title: t("projects-page.projects.second"),
       filter: ["coolest"],
       technologies:["javascript"],
       link:"https://jvm-webmarketing.vercel.app/"
     },
     {
-      image: "url(vintage-app.png)",
+      image: "url(vintage-app.PNG)",
       title: t("projects-page.projects.third"),
       filter: ["coolest"],
       technologies:["javascript"],
