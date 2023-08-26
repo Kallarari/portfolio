@@ -1,0 +1,24 @@
+.me_image {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.description_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.subtitle {
+  font-size: 20px;
+  color: var(--text);
+  margin-bottom: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-inline: auto;
+  width: fit-content;
+  display: flex;
+  max-width: 1080px;
+  padding-left: 30px;
+}

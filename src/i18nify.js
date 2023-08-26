@@ -23,7 +23,7 @@ i18n
     lng: language === "pt-BR" ? "pt" : "en", // idioma padrão
     fallbackLng: "en", // idioma de fallback, caso o idioma preferido não esteja disponível
     interpolation: {
-      escapeValue: false, // permite que você use códigos HTML em suas traduções
+      escapeValue: false,
     },
     react: {
       useSuspense: true,
