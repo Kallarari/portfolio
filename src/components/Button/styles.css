@@ -1,12 +1,13 @@
 .borded, .selected, .button{
     background-color: var(--primary-contrast);
-    color:var(--text);
+    color:var(--text-contrast);
     padding: 10px 15px;
     border-radius: 8px;
     border-bottom:var(--border-bottom);
     border-left:var(--border-left);
     width: fit-content;
     margin-inline: auto;
+    font-weight: bold;
 }
 .borded {
     border-radius: 2px;

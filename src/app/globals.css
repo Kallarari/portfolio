@@ -55,6 +55,7 @@ body {
   --secondary: #ddd;
   --secondary-contrast: #bcbbbb;
   --text: white;
+  --icon-contrast: rgb(37, 37, 37);
   --border-left: none;
   --border-bottom: none;
   --text-hover: black;
@@ -83,6 +84,7 @@ body {
   --text-hover: black;
   --hover-background: #e6e4e7;
   --text: black;
+  --icon-contrast: rgb(255, 255, 255);
   --soft-contrast: rgb(34, 33, 33);
   --active: black;
   --inactive: slateGray;

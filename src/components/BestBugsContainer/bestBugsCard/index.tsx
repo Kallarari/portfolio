@@ -35,7 +35,7 @@ const BestBugsCard: React.FC<BestBugsCardProps> = ({
     },
     {
       name: "react",
-      width: "25px",
+      width: "30px",
       IconName: "ri:reactjs-fill",
     },
     {
