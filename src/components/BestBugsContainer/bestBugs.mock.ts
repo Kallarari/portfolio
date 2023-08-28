@@ -8,22 +8,43 @@ export const BestBugsMock = (selected?: string) => {
       image: "url(black-light-theme.PNG)",
       title: t("best-bugs-page.solved-problems.black-light"),
       filter: ["solved"],
-      technologies:["typescript"],
+      technologies:["javascript","css"],
       link:"https://dev.to/kallarari/how-i-make-darklight-theme-12m",
     },
     {
       image: "url(internacionalização.PNG)",
       title: t("best-bugs-page.solved-problems.internationalization"),
       filter: ["tuto"],
-      technologies:["javascript"],
+      technologies:["javascript","language"],
       link:"https://www.youtube.com/watch?v=0n2nLY_bebM"
     },
     {
       image: "url(react-dropzone.PNG)",
       title: t("best-bugs-page.solved-problems.dropzone"),
       filter: ["tuto"],
-      technologies:["javascript"],
+      technologies:["typescript","react"],
       link:"https://www.youtube.com/watch?v=0plPZBCzMrg"
+    },
+    {
+      image: "url(stack-overflow.png)",
+      title: t("best-bugs-page.solved-problems.stack-overflow.2"),
+      filter: ["stack"],
+      technologies:["javascript","stack","react"],
+      link:"https://stackoverflow.com/a/76804393/18620446"
+    },
+    {
+      image: "url(stack-overflow.png)",
+      title: t("best-bugs-page.solved-problems.stack-overflow.2"),
+      filter: ["stack"],
+      technologies:["javascript","stack","react"],
+      link:"https://stackoverflow.com/a/76804393/18620446"
+    },
+    {
+      image: "url(shedule.PNG)",
+      title: t("best-bugs-page.solved-problems.shedule"),
+      filter: ["solved"],
+      technologies:["typescript","react"],
+      link:"https://brtiefing-jvm.vercel.app/"
     },
   ];
   return selected

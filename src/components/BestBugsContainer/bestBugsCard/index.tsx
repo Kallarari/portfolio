@@ -15,7 +15,7 @@ const BestBugsCard: React.FC<BestBugsCardProps> = ({
   title,
   image,
   technologies,
-  link
+  link,
 }) => {
   const stackIcons = [
     {
@@ -28,6 +28,26 @@ const BestBugsCard: React.FC<BestBugsCardProps> = ({
       width: "25px",
       IconName: "simple-icons:javascript",
     },
+    {
+      name: "stack",
+      width: "25px",
+      IconName: "cib:stackoverflow",
+    },
+    {
+      name: "react",
+      width: "25px",
+      IconName: "ri:reactjs-fill",
+    },
+    {
+      name: "css",
+      width: "25px",
+      IconName: "akar-icons:css-fill",
+    },
+    {
+      name: "language",
+      width: "25px",
+      IconName: "cil:language",
+    },
   ];
   return (
     <Link href={link} target="_blank">
@@ -36,16 +56,18 @@ const BestBugsCard: React.FC<BestBugsCardProps> = ({
           <span className="showcase-title">{title}</span>
         </div>
         <div className="stack-used-bar">
-          {stackIcons
-            .filter((icon) => technologies.includes(icon.name))
-            .map((item, key) => (
+          {stackIcons.map((item, key) =>
+            technologies.includes(item.name) ? (
               <Icon
                 key={key}
                 className="icon-showcase"
                 width={item.width}
                 icon={item.IconName}
               />
-            ))}
+            ) : (
+              ""
+            )
+          )}
         </div>
       </div>
     </Link>

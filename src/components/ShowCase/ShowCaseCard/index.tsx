@@ -28,6 +28,46 @@ const ShowCaseCard: React.FC<ShowCaseCardProps> = ({
       width: "25px",
       IconName: "simple-icons:javascript",
     },
+    {
+      name: "figma",
+      width: "25px",
+      IconName: "solar:figma-bold",
+    },
+    {
+      name: "nest",
+      width: "25px",
+      IconName: "simple-icons:nestjs",
+    },
+    {
+      name: "react",
+      width: "25px",
+      IconName: "ri:reactjs-line",
+    },
+    {
+      name: "git",
+      width: "25px",
+      IconName: "mdi:github",
+    },
+    {
+      name: "next",
+      width: "25px",
+      IconName: "teenyicons:nextjs-solid",
+    },
+    {
+      name: "html",
+      width: "25px",
+      IconName: "akar-icons:html-fill",
+    },
+    {
+      name: "css",
+      width: "25px",
+      IconName: "akar-icons:css-fill",
+    },
+    {
+      name: "wordpress",
+      width: "25px",
+      IconName: "formkit:wordpress",
+    },
   ];
   return (
     <Link href={link} target="_blank">
@@ -36,15 +76,14 @@ const ShowCaseCard: React.FC<ShowCaseCardProps> = ({
           <span className="showcase-title">{title}</span>
         </div>
         <div className="stack-used-bar">
-          {stackIcons
-            .filter((icon) => technologies.includes(icon.name))
-            .map((item, key) => (
+          {stackIcons.map((item, key) => (
+              technologies.includes(item.name)?
               <Icon
                 key={key}
                 className="icon-showcase"
                 width={item.width}
                 icon={item.IconName}
-              />
+              />:""
             ))}
         </div>
       </div>

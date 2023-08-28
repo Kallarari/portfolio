@@ -13,9 +13,9 @@ const ShowCase: React.FC = () => {
     <div className="showcase-container">
       <div className="buttons-container">
         <Button
-          styleType={selected === "payment" ? "selected" : "borded"}
+          styleType={selected === "github" ? "selected" : "borded"}
           onClick={() =>
-            selected === "payment" ? setSelected("") : setSelected("payment")
+            selected === "github" ? setSelected("") : setSelected("github")
           }
           text={t("projects-page.options.first")}
         />
@@ -27,9 +27,9 @@ const ShowCase: React.FC = () => {
           text={t("projects-page.options.second")}
         />
         <Button
-          styleType={selected === "coolest" ? "selected" : "borded"}
+          styleType={selected === "figma" ? "selected" : "borded"}
           onClick={() =>
-            selected === "coolest" ? setSelected("") : setSelected("coolest")
+            selected === "figma" ? setSelected("") : setSelected("figma")
           }
           text={t("projects-page.options.third")}
         />

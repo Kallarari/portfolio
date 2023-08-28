@@ -16,14 +16,24 @@
     "subtitle": "Check out the projects, tecnologies and results.",
     "button": "Browse",
     "options": {
-      "first": "Payment",
+      "first": "Github",
       "second": "More Complex",
-      "third": "Coolest"
+      "third": "Figma"
     },
     "projects": {
-      "first": "Briefing JVM",
-      "second": "JVM site",
-      "third": "Music app"
+      "briefing": "Briefing JVM",
+      "jvm-site": "JVM site",
+      "music-app": "Music app",
+      "horse-tech":"Horse tech site",
+      "jvm-webmarketing":"JVM Webmarketing figma",
+      "menu":"Menu",
+      "vico":"Vico Quiropraxia",
+      "hess":"Filipe Hess Quiropraxia",
+      "jvm-design":"JVM design site",
+      "mid-test":"Mid programmer test",
+      "mid-test-git":"Mid test github",
+      "birva":"Birva design site",
+      "nest":"Nest back-end"
     }
   },
   "best-bugs-page": {
@@ -37,7 +47,12 @@
     "solved-problems": {
       "black-light": "Black and Light theme",
       "internationalization": "Internationalization",
-      "dropzone": "Dropzone component"
+      "dropzone": "Dropzone component",
+      "stack-overflow":{
+        "1":"Reading and uploading files",
+        "2":"UseRef doesn't update"
+      },
+      "shedule":"Serverless Shedule"
     }
   },
   "about-me": {
