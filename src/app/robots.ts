@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: process.env.PORTFOLIO_URL + 'sitemap.xml',
+    sitemap: "https://portfolio-kallarari.vercel.app/" + 'sitemap.xml',
   };
 }
