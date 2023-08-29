@@ -16,7 +16,7 @@ const AboutMe: React.FC = () => {
       <StackShowSession />
       <h1 className={style.title}>{t("about-me.title")}</h1>
       <AboutMeSession />
-      <h1 className={style.title}>{t("about-me.formations")}</h1>
+      <h1 className={style.title_formation}>{t("about-me.formations")}</h1>
       <AboutMeFormationsSession />
       <AboutMeOptionsMenu />
     </div>

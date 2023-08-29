@@ -126,3 +126,14 @@
   background-color: var(--soft-contrast);
   padding: 8px 0px;
 }
+
+@media (max-width: 768px) { 
+  .chartContainer{
+    max-width: 100vw;
+  }
+  .stackShowcaseTechnologies{
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+  }
+}

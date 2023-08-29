@@ -3,3 +3,12 @@
   display: flex;
   gap: 60px;
 }
+
+@media (max-width: 768px) { 
+  .another_options{
+    gap:20px;
+    flex-direction: column;
+    margin: 0 5px 20px 5px;
+
+  }
+}

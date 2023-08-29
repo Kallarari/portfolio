@@ -8,7 +8,7 @@ import StackRatioLibraries from "./StackRatioLibraries";
 
 const StackShowSession: React.FC = () => {
   const { t } = useTranslation();
-  const [technologySelected, setTechnologiSelected] = useState("React");
+  const [technologySelected, setTechnologiSelected] = useState("");
   const dataChart = [
     {
       x: 10,
@@ -96,7 +96,7 @@ const StackShowSession: React.FC = () => {
       <div className={style.stackShowcaseTechnologies}>
         <div className={style.chartContainer}>
           <RadialBarChart
-            width={400}
+            width={390}
             height={343}
             data={dataChart}
             innerRadius={105}

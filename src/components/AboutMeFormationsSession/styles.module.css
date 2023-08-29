@@ -18,3 +18,9 @@
   align-items: center;
   padding-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .description_container {
+    display: none;
+  }
+}

@@ -14,3 +14,10 @@
     font-size: 30px;
     color:var(--text);
 }
+
+@media (max-width: 768px) { 
+    .stackRatioContainer{
+        flex-direction: column;
+        gap:40px;
+    }
+}
