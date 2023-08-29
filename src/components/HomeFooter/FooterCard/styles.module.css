@@ -5,37 +5,48 @@
   font-weight: bold;
   font-size: 25px;
 }
-.footer_card_subtitle {
-  color: var(--text);
-  text-align: left;margin: 0;
-  max-width: 30ch;
-  font-size: 0.875rem;
-  opacity: 0.5;
-}
-.card_group {
+.home_footer_container{
   width: 340px;
   text-align: left;
   border-radius: 10px;
   padding: 11px 21px;
   border: 1px solid #aaaaaa00;
+  min-height: 115px;
 }
-.footer_card_arrow{
+.footer_card_subtitle {
+  color: var(--text);
+  text-align: left;
+  margin: 0;
+  max-width: 30ch;
+  font-size: 0.875rem;
+  opacity: 0.5;
+}
+.footer_card_arrow {
   display: inline-block;
-
 }
 @media (max-width: 1500px) {
-  .card_group {
+  .home_footer_container {
     width: 270px;
   }
 }
-.card_group:hover {
+.home_footer_container:hover {
   border: 1px solid gray;
   background-color: var(--hover-background);
 }
 
-.card_group:hover > .footer_card_title > .footer_card_arrow{
+.home_footer_container:hover > .footer_card_title > .footer_card_arrow {
   transform: translate(10px);
 }
-.card_group:hover > :is(.footer_card_title, .footer_card_subtitle) {
+.home_footer_container:hover > :is(.footer_card_title, .footer_card_subtitle) {
   color: var(--text-hover);
+}
+
+@media (max-width: 768px) {
+  .home_footer_container{
+
+  }
+  .home_footer_container {
+    width: auto;
+    min-width: 250px;
+  }
 }

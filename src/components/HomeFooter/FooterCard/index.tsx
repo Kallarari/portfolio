@@ -14,19 +14,13 @@ const FooterCard: React.FC<footerCardProps> = ({
   link,
 }: footerCardProps) => {
   return (
-    <Link
-      href={link}
-      className={styles.card_group}
-    >
-      <h2 className={styles.footer_card_title}>
-        {title}{" "}
-        <span className={styles.footer_card_arrow}>
-          -&gt;
-        </span>
-      </h2>
-      <p className={styles.footer_card_subtitle}>
-        {subtitle}
-      </p>
+    <Link href={link}>
+      <div className={styles.home_footer_container}>
+        <h2 className={styles.footer_card_title}>
+          {title} <span className={styles.footer_card_arrow}>-&gt;</span>
+        </h2>
+        <p className={styles.footer_card_subtitle}>{subtitle}</p>
+      </div>
     </Link>
   );
 };

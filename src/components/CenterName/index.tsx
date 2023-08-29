@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 
 const MeuComponente: React.FC = () => {
   const { t } = useTranslation();
-  const textToShow = "Stack Showcase";
+  const textToShow = " Stack Showcase";
   const [visibleText, setVisibleText] = useState("");
   const [firstText, setFirstText] = useState("");
   const [secondText, setSecondText] = useState("");
@@ -30,7 +30,7 @@ const MeuComponente: React.FC = () => {
     let currentLength1 = 0;
     const intervalShow = setInterval(() => {
       if (currentLength1 < 7) {
-        setFirstText(t('name').substring(0, currentLength1 + 1));
+        setFirstText(t("name").substring(0, currentLength1 + 1));
         setSecondText("itor ".substring(0, currentLength1 + 1));
         setThirdText("inosso ".substring(0, currentLength1 + 1));
         currentLength1++;
@@ -39,7 +39,7 @@ const MeuComponente: React.FC = () => {
         setTimeout(() => {
           const intervalHide = setInterval(() => {
             if (currentLength1 >= 0) {
-              setFirstText(t('name').substring(0, currentLength1));
+              setFirstText(t("name").substring(0, currentLength1));
               setSecondText("itor ".substring(0, currentLength1));
               setThirdText("inosso ".substring(0, currentLength1));
               currentLength1--;
@@ -63,7 +63,10 @@ const MeuComponente: React.FC = () => {
         <strong>V</strong>
         {secondText}
         <strong>M</strong>
-        {thirdText} {visibleText}
+        {thirdText} 
+      </h1>
+      <h1 className={styles.stack_show}>
+        {visibleText}
       </h1>
     </div>
   );

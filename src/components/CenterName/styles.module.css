@@ -16,10 +16,27 @@
       padding-bottom: 30vh;
     }
   }
-.name_text {
+.name_text,.stack_show {
   font-family: Raleway;
   color: var(--text);
   font-weight: bolder;
   font-size: 35px;
   transition-duration: 0.5s;
+}
+.stack_show{
+  padding-left: 5px;
+}
+@media (max-width: 768px) {
+  
+.name_text {
+  max-width: 90vw;
+  margin-inline: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  flex-direction: column;
+  padding: 34vh 0 0 0;
+}
 }

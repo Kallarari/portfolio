@@ -13,3 +13,13 @@
     justify-items: center;
   }
 }
+
+@media (max-width: 768px) {
+  .home_footer_container{
+    display: flex;
+    width: 100vw;
+    overflow-x: auto;
+    justify-items: flex-start;
+    justify-content: flex-start;
+  }
+}
