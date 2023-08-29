@@ -43,7 +43,10 @@
 
 @media (max-width: 1500px) {
     .title-container {
-        padding: 50px 0 0 0;
+        padding: 50px 10px 0 10px;
+    }
+    .projects-container{
+        padding: 0 0 0 0;
     }
   }
   

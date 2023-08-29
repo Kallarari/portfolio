@@ -80,7 +80,7 @@ const StackRatioLibraries: React.FC = () => {
     <div className={styles.stackRatioContainer}>
       <div className={styles.radioChartContainer}>
         <h1 className={styles.titleRatioChart}>Tech Libraries</h1>
-        <RadarChart outerRadius={90} width={430} height={250} data={technologies}>
+        <RadarChart outerRadius={90} width={390} height={250} data={technologies}>
           <PolarGrid />
           <PolarAngleAxis dataKey="subject" />
           <PolarRadiusAxis angle={30} domain={[0, 150]} />
@@ -96,7 +96,7 @@ const StackRatioLibraries: React.FC = () => {
       </div>
       <div className={styles.radioChartContainer}>
         <h1 className={styles.titleRatioChart}>Styles Libraries</h1>
-        <RadarChart outerRadius={90} width={430} height={250} data={stylesTech}>
+        <RadarChart outerRadius={90} width={390} height={250} data={stylesTech}>
           <PolarGrid />
           <PolarAngleAxis dataKey="subject" />
           <PolarRadiusAxis angle={30} domain={[0, 150]} />

@@ -27,16 +27,16 @@
       "briefing": "Orçamento JVM",
       "jvm-site": "site da JVM",
       "music-app": "Aplicativo de música",
-      "horse-tech":"Site horse tech",
-      "jvm-webmarketing":"Figma JVM Webmarketing",
-      "menu":"Cardápio",
-      "vico":"Vico Quiropraxia",
-      "hess":"Filipe Hess Quiropraxia",
-      "jvm-design":"Site JVM design",
-      "mid-test":"Teste programmador pleno",
-      "mid-test-git":"Teste programmador pleno github",
-      "birva":"Site Birva design",
-      "nest":"Nest back-end"
+      "horse-tech": "Site horse tech",
+      "jvm-webmarketing": "Figma JVM Webmarketing",
+      "menu": "Cardápio",
+      "vico": "Vico Quiropraxia",
+      "hess": "Filipe Hess Quiropraxia",
+      "jvm-design": "Site JVM design",
+      "mid-test": "Teste programmador pleno",
+      "mid-test-git": "Teste programmador pleno github",
+      "birva": "Site Birva design",
+      "nest": "Nest back-end"
     }
   },
   "best-bugs-page": {
@@ -46,22 +46,22 @@
       "first": "Tutoriais",
       "second": "Stack Overflow",
       "third": "Problemas praticos",
-      "horse-tech":"Site Horse tech",
-      "jvm-webmarketing":"Figma da JVM Webmarketing ",
-      "menu":"Menu",
-      "vico":"Vico quiropraxia",
-      "hess":"Hess quiropraxia"
+      "horse-tech": "Site Horse tech",
+      "jvm-webmarketing": "Figma da JVM Webmarketing ",
+      "menu": "Menu",
+      "vico": "Vico quiropraxia",
+      "hess": "Hess quiropraxia"
     },
     "solved-problems": {
       "black-light": "Thema claro e escuro",
       "internationalization": "Internacionalização",
       "dropzone": "Dropzone componente"
     },
-    "stack-overflow":{
-      "1":"Lendo e subindo arquivos",
-      "2":"useRef não atualiza"
+    "stack-overflow": {
+      "1": "Lendo e subindo arquivos",
+      "2": "useRef não atualiza"
     },
-    "shedule":"Agenda serverless"
+    "shedule": "Agenda serverless"
   },
   "about-me": {
     "initial-date": "data de início",
@@ -90,7 +90,7 @@
     "feedback-placeholder": "Seu feedback sobre mim ou sobre meu site..."
   },
   "footer": {
-    "thaks-text": "   Parece que você é atento aos detalhes,\nassim como eu. Se quiser me conhecer melhor, \nfique à vontade para explorar minhas redes\nsociais ou baixar meu currículo para conhecer\nmelhor minha trajetória.\n            Obrigado pela visita!",
+    "thaks-text": "   Parece que você é atento aos detalhes,\nassim como eu. Se quiser me conhecer melhor, \nfique à vontade para explorar minhas redes\nsociais ou baixar meu currículo para conhecer\nmelhor minha trajetória.\nObrigado pela visita!",
     "util": "UTILIDADE",
     "home": "HOME",
     "contact": "CONTATO",

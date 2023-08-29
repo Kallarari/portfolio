@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
               <Icon className={styles.icon} width="40px" icon="mdi:linkedin" />
             </a>
           </div>
-          <pre>{t('footer.thaks-text')}</pre>
+          <pre className={styles.footer_pre_text}>{t('footer.thaks-text')}</pre>
         </div>
       </div>
       <h2 className={styles.copy_text}>
