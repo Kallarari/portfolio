@@ -7,8 +7,8 @@ const ThemeSwitch: React.FC = () => {
   return (
     <div className="ThemeSwitchContainer">
       <Icon className="IconSun" width="40px" icon="solar:sun-bold" />      
-      <label className="switch">
-        <input type="checkbox" id="theme-switch" name="theme-switch" />
+      <label className="switch" id="theme-switch-label">
+        <input type="checkbox" id="theme-switch" name="theme-switch" aria-labelledby="theme-switch-label" />
         <span className="slider round"></span>
       </label>
       <Icon className="IconMon" width="34px" icon="ph:moon-fill" />

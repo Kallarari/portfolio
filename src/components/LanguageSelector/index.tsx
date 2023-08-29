@@ -11,9 +11,9 @@ const LanguageSelector: React.FC = () => {
   };
   return (
     <div className="language-selector">
-      <select value={i18n.language} onChange={(e)=>handleChangeLanguage(e.target.value)} id="language-select">
-        <option value="en">EN</option>
-        <option value="pt">PT</option>
+      <select value={i18n.language} onChange={(e)=>handleChangeLanguage(e.target.value)} id="language-select" aria-label="Change the language">
+        <option aria-label="English language" value="en">EN</option>
+        <option aria-label="Portuguese language" value="pt">PT</option>
       </select>
     </div>
   );
