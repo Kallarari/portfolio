@@ -1,8 +1,4 @@
-@font-face {
-  font-family: "Raleway";
-  src: url("../../../public/fonts/Raleway-VariableFont_wght.ttf")
-    format("truetype");
-}
+
 .container {
   display: flex;
   justify-content: center;
@@ -17,10 +13,10 @@
     }
   }
 .name_text,.stack_show {
-  font-family: Raleway;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--text);
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 40px;
   transition-duration: 0.5s;
 }
 .stack_show{
