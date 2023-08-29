@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import "./styles.css";
+import styles from "./styles.module.css";
 import { useTranslation } from "react-i18next";
 import Button from "../Button";
 import { BestBugsMock } from "./bestBugs.mock";
@@ -10,8 +10,8 @@ const BestBugsContainer: React.FC = () => {
   const { t } = useTranslation();
   const [selected, setSelected] = useState(String);
   return (
-    <div className="showcase-container">
-      <div className="buttons-container">
+    <div className={styles.showcase_container}>
+      <div className={styles.buttons_container}>
         <Button
           styleType={selected === "tuto" ? "selected" : "borded"}
           width="300px"
@@ -37,7 +37,7 @@ const BestBugsContainer: React.FC = () => {
           text={t("best-bugs-page.options.third")}
         />
       </div>
-      <div className="card-wraper">
+      <div className={styles.card_wraper}>
         {BestBugsMock(selected).map((item, key) => (
           <BestBugsCard
             link={item.link}

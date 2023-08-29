@@ -74,3 +74,13 @@
   left: -240px;
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  .contact_feedback{
+    flex-direction: column;
+    padding: 0 0 0 0;
+  }
+  .title_container{
+    padding-top: 50px;
+  }
+}

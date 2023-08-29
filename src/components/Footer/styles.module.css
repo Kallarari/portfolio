@@ -46,3 +46,11 @@
 .icon {
   color: var(--text);
 }
+
+@media (max-width: 768px) {
+  .footer_content{
+    max-width: 100vw;
+    flex-direction: column;
+    gap:20px
+  }
+}
