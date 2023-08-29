@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   return (
     <div className={styles.header_container}>
       <div className={styles.header_interative_bar_container}>
-        <Link href={"/"}>
+        <Link href={"/"} aria-label="Home link">
           <p className={styles.code_on_header}>
             <code className={styles.header_code}>
               FullStack/StackShow/JoãoVitorMinosso
