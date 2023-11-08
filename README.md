@@ -1,4 +1,4 @@
-# Next.js Portfolio Project
+# Jhon Vitor Next.js Portfolio Project
 
 This is a [Next.js](https://nextjs.org/) project created for John's [Portfolio](https://portfolio-kallarari.vercel.app/).
 
@@ -18,10 +18,7 @@ If you have [git](https://git-scm.com/downloads) installed, open your command pr
     4-Start the development server:
     npm run dev
 
-    5-Start the development server:
-    npm run dev
-
-    6-Open the Website:
+    5-Open the Website:
     Open http://localhost:3000 in your web browser.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -31,9 +28,22 @@ If you encounter any issues or have difficulties, please send an email to joaovi
 
 ## Project Architeture
 This project consists of page files that render components. These components are implemented using TSX and CSS files.
+*The metadata information are in 
+--src
+    --app
+        --layout.tsx
+
+*Sitemap file in 
+--src
+    --app
+        --sitemap.ts
 
 # Global styles
 The theme is controlled in the global.css file under the #theme-switch:not(:checked) selector, which sets the color attributed to var(--color) in CSS files.
+--src
+    --app
+        --globals.css
+
 
 # Pages
 -- src
@@ -54,6 +64,9 @@ Some components may have child components located within their respective folder
 
 # Translation
 Text for the two translations can be found in the locales folder. 
+-- locales
+    --en.json
+    --pt.json
 Configuration is located in the i18nify.js file in the source folder and the Provider is in the provider.tsx file. 
 Translation is handled using the i18nify library, which simplifies the process. In the i18nify.js file, you can see the code that detects the user's language preference and applies it to the website.
 

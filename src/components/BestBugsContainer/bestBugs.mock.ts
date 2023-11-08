@@ -33,13 +33,6 @@ export const BestBugsMock = (selected?: string) => {
       link:"https://stackoverflow.com/a/76804393/18620446"
     },
     {
-      image: "url(stack-overflow.png)",
-      title: t("best-bugs-page.solved-problems.stack-overflow.2"),
-      filter: ["stack"],
-      technologies:["javascript","stack","react"],
-      link:"https://stackoverflow.com/a/76804393/18620446"
-    },
-    {
       image: "url(shedule.PNG)",
       title: t("best-bugs-page.solved-problems.shedule"),
       filter: ["solved"],
