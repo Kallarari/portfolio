@@ -61,7 +61,8 @@
       "1": "Lendo e subindo arquivos",
       "2": "useRef não atualiza"
     },
-    "shedule": "Agenda serverless"
+    "shedule": "Agenda serverless",
+    "error-boundary":"Gerenciamento de erro"
   },
   "about-me": {
     "initial-date": "data de início",

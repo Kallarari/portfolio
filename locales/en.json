@@ -52,7 +52,8 @@
         "1":"Reading and uploading files",
         "2":"UseRef doesn't update"
       },
-      "shedule":"Serverless Shedule"
+      "shedule":"Serverless Shedule",
+      "error-boundary":"Error Handling"
     }
   },
   "about-me": {

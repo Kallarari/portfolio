@@ -39,6 +39,13 @@ export const BestBugsMock = (selected?: string) => {
       technologies:["typescript","react"],
       link:"https://brtiefing-jvm.vercel.app/"
     },
+    {
+      image: "url(boundary.png)",
+      title: t("best-bugs-page.solved-problems.shedule"),
+      filter: ["solved"],
+      technologies:["typescript","react"],
+      link:"https://github.com/Kallarari/ErrorBounding/blob/main/ErrorBoundingComponent.tsx"
+    },
   ];
   return selected
     ? mock.filter((item) => item.filter.includes(selected))
