@@ -3,7 +3,7 @@
   "projects": { "title": "Projects", "subtitle": "My projects showcase." },
   "about": { "title": "About Me", "subtitle": "My stack and experiences." },
   "templates": {
-    "title": "Best Bugs",
+    "title": "Solved Bugs",
     "subtitle": "Stack overflow and my experience of solving problems"
   },
   "contact": {
