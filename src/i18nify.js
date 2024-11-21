@@ -16,12 +16,12 @@ let language = "en";
 if (typeof window !== "undefined") language = window.navigator.language;
 
 i18n
-  .use(initReactI18next) // inicializa o react-i18next
+  .use(initReactI18next) // initialize react-i18next
   .init({
     resources,
     debug: true,
-    lng: language === "pt-BR" ? "pt" : "en", // idioma padrão
-    fallbackLng: "en", // idioma de fallback, caso o idioma preferido não esteja disponível
+    lng: language === "pt-BR" ? "pt" : "en", // default language
+    fallbackLng: "en", // fallback language
     interpolation: {
       escapeValue: false,
     },

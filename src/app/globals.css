@@ -1,20 +1,18 @@
-
-input{
+input {
   width: 100%;
 }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  color: rgb(var(--foreground-rgb));
+/* body {
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
 :root {
   --primary: white;
@@ -27,10 +25,26 @@ body {
 * {
   transition-duration: 0.5s;
 }
+
 body {
-  background: linear-gradient(var(--background-end), var(--background-start));
+  color: rgb(var(--foreground-rgb));
+  position: relative;
+  background: white;
 }
-.page_container{
+
+:root:has(#theme-switch:checked) body::before {
+  background: linear-gradient(var(--background-end), var(--background-start));
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  mask-image: url(../../public/ink-effect.gif);
+  mask-size: cover;
+  mask-position: center;
+}
+
+.page_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,35 +52,33 @@ body {
   align-items: center;
   padding: 30px 0 0 0;
   min-height: 100vh;
-  max-width: 1300px;  
+  max-width: 1300px;
 }
 @media (max-width: 1500px) {
-.page_container{
-  max-width: 1080px;  
+  .page_container {
+    max-width: 1080px;
+  }
 }
+@media (max-width: 768px) {
+  body {
+    padding: 0 0 0 0;
+    min-height: 100vh;
+    max-width: 100vw;
+    margin: 0 0 0 0;
+  }
+  .page_container {
+    padding: 0 0 0 0;
+    min-height: 100vh;
+    max-width: 100vw;
+    margin: 0 0 0 0;
+  }
 }
-@media (max-width: 768px) {  
-  
-body {
-  padding: 0 0 0 0;
-  min-height: 100vh;
-  max-width: 100vw;  
-  margin:0 0 0 0;
-}
-.page_container{
-  padding: 0 0 0 0;
-  min-height: 100vh;
-  max-width: 100vw;  
-  margin:0 0 0 0;
-}
-}
-
 
 #theme-switch,
 :root:has(#theme-switch:checked) {
   --primary: #222327;
-  --background-end:#222327;
-  --background-start:#222327;
+  --background-end: #222327;
+  --background-start: #222327;
   --primary-contrast: #c6c9d0;
   --secondary: #ddd;
   --secondary-contrast: #bcbbbb;
@@ -79,19 +91,19 @@ body {
   --active: slateGray;
   --soft-contrast: rgb(15, 15, 15);
   --inactive: white;
-  --text-contrast:#222327;
-  --next-icon:#395ab6;
-  --react-icon:#38c3d5;
-  --expo-icon:#24dfa0;
-  --black-container-end:#3a3a3a;
-  --black-container-start:#000;
+  --text-contrast: #222327;
+  --next-icon: #395ab6;
+  --react-icon: #38c3d5;
+  --expo-icon: #24dfa0;
+  --black-container-end: #3a3a3a;
+  --black-container-start: #000;
 }
 
 #theme-switch,
 :root:has(#theme-switch:not(:checked)) {
   --primary: #edf2f8;
-  --background-end:#d5d6d7;
-  --background-start:#edf2f8;
+  --background-end: #d5d6d7;
+  --background-start: #edf2f8;
   --primary-contrast: #ffffff;
   --border-left: 2px solid #000;
   --border-bottom: 2px solid #000;
@@ -104,10 +116,10 @@ body {
   --soft-contrast: rgb(34, 33, 33);
   --active: black;
   --inactive: slateGray;
-  --text-contrast:#222327;
-  --next-icon:#0c142a;
-  --react-icon:#278894;
-  --expo-icon:#117453;
-  --black-container-end:#191818;
-  --black-container-start:rgb(50, 50, 50);
+  --text-contrast: #222327;
+  --next-icon: #0c142a;
+  --react-icon: #278894;
+  --expo-icon: #117453;
+  --black-container-end: #191818;
+  --black-container-start: rgb(50, 50, 50);
 }
